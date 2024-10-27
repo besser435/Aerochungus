@@ -3,3 +3,4 @@
 *.lck
 *.kicad_sch-bak
 AC-FR/ACFR-PCB/fp-info-cache
+*.pyc
