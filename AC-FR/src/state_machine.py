@@ -14,30 +14,25 @@ from tick import sm_tick
 state = globals.state
 
 
-
-
-
-
-
 if state == 0:   # Boot
     import ac_boot
 
 while True:
     try:
         globals.iteration_start = time.monotonic()
-        if state == 1:      # Pad idle
+        if state == 1:
             import pad_idle
 
-        elif state == 2:    # Boost
+        elif state == 2:
             import boost
 
-        elif state == 3:    # Apogee
+        elif state == 3:
             import apogee
 
-        elif state == 4:    # Decent
+        elif state == 4:
             import decent
 
-        elif state == 5:    # Landed
+        elif state == 5:
             import landed
 
         else:
