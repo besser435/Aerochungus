@@ -6535,12 +6535,6 @@
 		(uuid "0a617740-2fba-4151-a2a7-6735e2fa6471")
 	)
 	(junction
-		(at 91.44 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0deba1a2-bb84-4a0c-8815-5c98f5962adc")
-	)
-	(junction
 		(at 303.53 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6793,7 +6787,7 @@
 		(uuid "f12ad965-26b2-41e8-94cb-da9dfb207cbb")
 	)
 	(junction
-		(at 128.27 107.95)
+		(at 118.11 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7d23d4c-8c61-4679-8bf6-d0cf30cc8dc4")
@@ -6964,7 +6958,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 196.85) (xy 38.1 196.85)
+			(xy 25.4 196.85) (xy 38.1 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6984,7 +6978,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 172.72) (xy 153.67 172.72)
+			(xy 148.59 170.18) (xy 153.67 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7011,6 +7005,26 @@
 			(type default)
 		)
 		(uuid "09c49d64-d332-4ce6-8dcf-2f778c1e68cc")
+	)
+	(wire
+		(pts
+			(xy 25.4 247.65) (xy 38.1 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a16eed0-028a-4c03-974a-ffcbe2fb3e7b")
+	)
+	(wire
+		(pts
+			(xy 25.4 209.55) (xy 38.1 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e11df44-9c67-464b-972e-78093fe7cf52")
 	)
 	(wire
 		(pts
@@ -7124,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 201.93) (xy 38.1 201.93)
+			(xy 25.4 201.93) (xy 38.1 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7134,7 +7148,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 134.62 101.6)
+			(xy 124.46 95.25) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7314,16 +7328,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 142.24) (xy 30.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c8b5b41-f92a-4f8f-80f6-1f1028915b82")
-	)
-	(wire
-		(pts
 			(xy 318.77 187.96) (xy 322.58 187.96)
 		)
 		(stroke
@@ -7361,16 +7365,6 @@
 			(type default)
 		)
 		(uuid "306beacc-4bb5-4020-9750-da11a96aa2a0")
-	)
-	(wire
-		(pts
-			(xy 27.94 212.09) (xy 38.1 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "310f292e-1943-4203-9fa3-5b5f02ba47ca")
 	)
 	(polyline
 		(pts
@@ -7474,16 +7468,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 245.11) (xy 38.1 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d90be3c-eae5-4718-880e-e4d9fd0882f3")
-	)
-	(wire
-		(pts
 			(xy 66.04 166.37) (xy 66.04 175.26)
 		)
 		(stroke
@@ -7524,16 +7508,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 93.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f8aa7e-be22-472c-ae78-94e6e2da7ed0")
-	)
-	(wire
-		(pts
 			(xy 237.49 113.03) (xy 250.19 113.03)
 		)
 		(stroke
@@ -7544,7 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 107.95) (xy 134.62 106.68)
+			(xy 124.46 102.87) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7574,7 +7548,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 204.47) (xy 38.1 204.47)
+			(xy 21.59 142.24) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbf7e0d-6242-4cbc-a07f-0e91c99c2386")
+	)
+	(wire
+		(pts
+			(xy 25.4 204.47) (xy 38.1 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7601,16 +7585,6 @@
 			(type default)
 		)
 		(uuid "508880d0-000d-4b84-ab4f-3ff4a28b6a02")
-	)
-	(wire
-		(pts
-			(xy 91.44 91.44) (xy 91.44 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545615b1-4cf2-41c0-9a46-61c21a103009")
 	)
 	(wire
 		(pts
@@ -7681,16 +7655,6 @@
 			(type default)
 		)
 		(uuid "5e70392c-d172-4a53-8528-e0b3f95d3e1e")
-	)
-	(wire
-		(pts
-			(xy 86.36 91.44) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea57a9d-fa79-40c3-862f-4534ffab2504")
 	)
 	(wire
 		(pts
@@ -7814,6 +7778,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 245.11) (xy 38.1 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f0411a-0a89-485c-a026-232e46f73d27")
+	)
+	(wire
+		(pts
 			(xy 66.04 179.07) (xy 66.04 175.26)
 		)
 		(stroke
@@ -7831,16 +7805,6 @@
 			(type dash)
 		)
 		(uuid "6b3a71db-cf9a-4819-a068-85b17a5a2e08")
-	)
-	(wire
-		(pts
-			(xy 104.14 96.52) (xy 101.6 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c9752b3-1056-44e6-86e5-87f6271adf47")
 	)
 	(wire
 		(pts
@@ -7864,7 +7828,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 199.39) (xy 38.1 199.39)
+			(xy 25.4 199.39) (xy 38.1 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7984,7 +7948,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 128.27 110.49)
+			(xy 118.11 102.87) (xy 118.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8114,7 +8078,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 134.62 100.33)
+			(xy 118.11 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8184,7 +8148,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 115.57) (xy 120.65 115.57)
+			(xy 102.87 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8204,7 +8168,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 229.87) (xy 38.1 229.87)
+			(xy 25.4 229.87) (xy 38.1 229.87)
 		)
 		(stroke
 			(width 0)
@@ -8254,7 +8218,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 224.79) (xy 38.1 224.79)
+			(xy 25.4 224.79) (xy 38.1 224.79)
 		)
 		(stroke
 			(width 0)
@@ -8264,17 +8228,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 109.22 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a323ed53-2597-4097-aaa3-b4a194a4b4de")
-	)
-	(wire
-		(pts
-			(xy 27.94 207.01) (xy 38.1 207.01)
+			(xy 25.4 207.01) (xy 38.1 207.01)
 		)
 		(stroke
 			(width 0)
@@ -8294,7 +8248,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 107.95) (xy 128.27 107.95)
+			(xy 124.46 102.87) (xy 118.11 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8464,7 +8418,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 232.41) (xy 38.1 232.41)
+			(xy 25.4 232.41) (xy 38.1 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8484,7 +8438,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 227.33) (xy 38.1 227.33)
+			(xy 25.4 227.33) (xy 38.1 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8794,7 +8748,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 186.69) (xy 38.1 186.69)
+			(xy 25.4 186.69) (xy 38.1 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8834,7 +8788,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 222.25) (xy 38.1 222.25)
+			(xy 25.4 222.25) (xy 38.1 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8914,6 +8868,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 212.09) (xy 38.1 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9790f68-6888-4fb0-9cd8-f84d4a630d5c")
+	)
+	(wire
+		(pts
 			(xy 50.8 38.1) (xy 64.77 38.1)
 		)
 		(stroke
@@ -8941,16 +8905,6 @@
 			(type default)
 		)
 		(uuid "fc41c9ca-f30a-4a42-9147-22fd3c61d980")
-	)
-	(wire
-		(pts
-			(xy 27.94 247.65) (xy 38.1 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4ad885-bbd7-4c29-a0ca-a0fe0471f7f3")
 	)
 	(wire
 		(pts
@@ -8992,6 +8946,16 @@
 		)
 		(uuid "27f3e16c-c36d-45c4-93c7-f5bb7cd281a4")
 	)
+	(text "800/(1000+806e)\n= ~0.45 = 9/20\n\nPower consumption:\nv^2/(R1+R2)\n= ~30mW"
+		(exclude_from_sim no)
+		(at 319.024 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c6c8d90-d5e4-4067-9b14-05cca3f1241c")
+	)
 	(text "Flight Data Flash"
 		(exclude_from_sim no)
 		(at 183.134 82.042 0)
@@ -9012,12 +8976,22 @@
 		)
 		(uuid "38d3e203-8e63-4417-97ff-a2e7d6098739")
 	)
-	(text "Not tested, this\nwiring on pull up R may be incorrect\n(MOSFETs scary)\nUsing a P channel FET, should maybe be N channel.\n\nAlso get a better\npiezo zymbol"
+	(text "5v MAX"
 		(exclude_from_sim no)
-		(at 118.364 74.676 0)
+		(at 313.944 163.068 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "48a5243b-80bb-4f9d-ac80-728197e2b54a")
+	)
+	(text "Not tested, this\nwiring on pull up R may be incorrect\n(MOSFETs scary)\nUsing a P channel FET, should maybe be N channel.\n\nAlso get a better\npiezo zymbol"
+		(exclude_from_sim no)
+		(at 133.604 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
 		(uuid "51f27020-2d60-4a8d-9c3b-d1ffaea9bee2")
@@ -9082,12 +9056,12 @@
 		)
 		(uuid "9d6a8c56-9f91-4d56-bb5c-319154c8eed5")
 	)
-	(text "Not connected to Analog pin on MCU.\n\nR values not set.\n\nUsed to detect\nwhen running off of \nsupercap to set error\nflag high."
+	(text "See:\nhttps://www.youtube.com/watch?v=FytOw9TRPcc"
 		(exclude_from_sim no)
-		(at 333.756 228.6 0)
+		(at 304.038 248.666 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 1.27 1.27)
 			)
 		)
 		(uuid "b3eb944f-6c07-4777-8206-34daad466a1a")
@@ -9124,7 +9098,7 @@
 	)
 	(text "Using 10k pullups,\nnot 5.1k.\n\nWill this fix\nocasional I2C\nsetup error?"
 		(exclude_from_sim no)
-		(at 155.194 143.51 0)
+		(at 156.21 150.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9183,6 +9157,17 @@
 			(justify left bottom)
 		)
 		(uuid "044c57f1-c36d-4cce-b6cf-e580d9149be5")
+	)
+	(label "IO38"
+		(at 93.98 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "068a5fda-02c4-4059-bc05-44399ceaf2f2")
 	)
 	(label "SD_CS"
 		(at 241.3 100.33 0)
@@ -9250,17 +9235,6 @@
 		)
 		(uuid "1e8b7080-dbb2-4787-afde-b8c63f20474b")
 	)
-	(label "BUZZ"
-		(at 86.36 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2045e889-ff64-4775-b554-6104da2743c6")
-	)
 	(label "SPID"
 		(at 129.54 203.2 0)
 		(fields_autoplaced yes)
@@ -9305,19 +9279,8 @@
 		)
 		(uuid "24c8090b-e1f2-4bc9-9edf-067fbbd95f80")
 	)
-	(label "VHIGH"
-		(at 109.22 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25830218-b0a3-4574-8d51-998a3475e0ab")
-	)
 	(label "D+"
-		(at 27.94 232.41 0)
+		(at 25.4 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9339,7 +9302,7 @@
 		(uuid "2c3269e5-bb4a-4c0b-896d-dbdeec50bad5")
 	)
 	(label "XTAL_N"
-		(at 27.94 247.65 0)
+		(at 25.4 247.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9360,7 +9323,18 @@
 		)
 		(uuid "40bea364-7621-487d-99ed-1c1b7f3f9ad8")
 	)
-	(label "NEOPX"
+	(label "IO21"
+		(at 19.05 234.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e63118-fe82-41f3-859d-221daf6e8577")
+	)
+	(label "NEOPIXEL"
 		(at 21.59 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9383,7 +9357,7 @@
 		(uuid "4c789773-d6e1-4832-b5ee-7d9f97410d96")
 	)
 	(label "SDA"
-		(at 27.94 224.79 0)
+		(at 25.4 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9392,6 +9366,17 @@
 			(justify left bottom)
 		)
 		(uuid "4f4a5fba-cae6-45e1-872e-7d81df391be3")
+	)
+	(label "VBAT_SENSE"
+		(at 25.4 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fda888b-02a7-4832-9973-814bb4f861c1")
 	)
 	(label "SDA"
 		(at 105.41 35.56 0)
@@ -9405,7 +9390,7 @@
 		(uuid "50293113-381d-46fa-bcb6-e851a72b1e86")
 	)
 	(label "XTAL_P"
-		(at 27.94 245.11 0)
+		(at 25.4 245.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9459,6 +9444,17 @@
 		)
 		(uuid "60121556-af36-4d0d-bba3-5e25781d0b2a")
 	)
+	(label "IO1"
+		(at 20.32 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6274f247-b89f-43e1-b3ef-37c924209d85")
+	)
 	(label "SDA"
 		(at 171.45 52.07 0)
 		(fields_autoplaced yes)
@@ -9471,7 +9467,7 @@
 		(uuid "67c9d186-39d5-4134-85b3-e127ee8e7937")
 	)
 	(label "IO13"
-		(at 21.59 219.71 0)
+		(at 19.05 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9482,7 +9478,7 @@
 		(uuid "6827db82-0059-4cc6-a36c-baaa1f0541b8")
 	)
 	(label "MISO"
-		(at 27.94 199.39 0)
+		(at 25.4 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9537,7 +9533,7 @@
 		(uuid "70fb9126-c082-4f0c-aa74-6f6ec6dd0374")
 	)
 	(label "MOSI"
-		(at 27.94 196.85 0)
+		(at 25.4 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9547,8 +9543,19 @@
 		)
 		(uuid "74b76860-2be3-400a-a2af-7d714a9c47c4")
 	)
+	(label "NEOPIXEL"
+		(at 25.4 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75c577b1-d6f6-48fe-bbcd-879eca880e8c")
+	)
 	(label "IMU_INT"
-		(at 27.94 222.25 0)
+		(at 25.4 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9559,7 +9566,7 @@
 		(uuid "75f2e66e-8886-4601-a604-921fc23f85c1")
 	)
 	(label "VHIGH"
-		(at 130.81 100.33 180)
+		(at 120.65 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9603,7 +9610,7 @@
 		(uuid "805757d1-30bb-43c8-b46f-64c6ec81a110")
 	)
 	(label "SCL"
-		(at 27.94 227.33 0)
+		(at 25.4 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9614,7 +9621,7 @@
 		(uuid "85fd71c7-9f12-4d3b-a830-dbafb0e0b901")
 	)
 	(label "SCK"
-		(at 27.94 201.93 0)
+		(at 25.4 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9680,7 +9687,7 @@
 		(uuid "978bd762-5bbe-480c-82a2-8802a917bc61")
 	)
 	(label "IO12"
-		(at 21.59 217.17 0)
+		(at 19.05 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9702,7 +9709,7 @@
 		(uuid "a0c43592-5ae7-4466-9975-3b876ad20bf4")
 	)
 	(label "D-"
-		(at 27.94 229.87 0)
+		(at 25.4 229.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9713,7 +9720,7 @@
 		(uuid "ab18aa84-fedb-4daf-b49f-6b1249148270")
 	)
 	(label "BUZZ"
-		(at 113.03 115.57 0)
+		(at 102.87 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9734,19 +9741,8 @@
 		)
 		(uuid "b140e7b0-54ac-4e53-8c66-1520c262d8a7")
 	)
-	(label "NEOPX"
-		(at 27.94 212.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b63d4b6a-c94b-4745-8870-edaec8805fb0")
-	)
 	(label "IO11"
-		(at 21.59 214.63 0)
+		(at 19.05 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9801,7 +9797,7 @@
 		(uuid "d4039e1e-a158-41c0-8de6-09ffeb93c5d2")
 	)
 	(label "SCL"
-		(at 148.59 172.72 0)
+		(at 148.59 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9834,7 +9830,7 @@
 		(uuid "e26f8a2a-e1bd-4a9b-81fd-388ba8a6beee")
 	)
 	(label "FSH_CS"
-		(at 27.94 204.47 0)
+		(at 25.4 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9878,7 +9874,7 @@
 		(uuid "f618117b-be39-44f1-9e15-9d351857a3e2")
 	)
 	(label "BOOT"
-		(at 27.94 186.69 0)
+		(at 25.4 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9889,7 +9885,7 @@
 		(uuid "f67167b6-f17e-418b-9ec1-3500e3042cde")
 	)
 	(label "SD_CS"
-		(at 27.94 207.01 0)
+		(at 25.4 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9931,7 +9927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "005475bb-c0c0-405a-af55-2cfca941ce5e")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 287.274 275.844 0)
 			(effects
 				(font
@@ -9991,7 +9987,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10006,7 +10002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "014801cf-2248-48d0-baa4-ca66b27363c8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 344.17 191.77 0)
 			(effects
 				(font
@@ -10056,7 +10052,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10064,15 +10060,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 161.29 172.72 0)
+		(at 161.29 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "033eb83a-d4eb-4abc-a77f-f2f7e7920c52")
-		(property "Reference" "#PWR030"
-			(at 161.29 176.53 0)
+		(property "Reference" "#PWR029"
+			(at 161.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +10077,7 @@
 			)
 		)
 		(property "Value" "+3V3_2"
-			(at 163.576 168.91 0)
+			(at 163.576 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +10085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 172.72 0)
+			(at 161.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +10094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 172.72 0)
+			(at 161.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10107,7 +10103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 161.29 172.72 0)
+			(at 161.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10117,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10129,7 +10125,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 179.07 270.51 0)
+		(at 179.07 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10138,7 +10134,7 @@
 		(fields_autoplaced yes)
 		(uuid "091690a1-8daa-4bd7-ace1-35841db9b7a1")
 		(property "Reference" "H2"
-			(at 181.61 269.24 0)
+			(at 181.61 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10144,7 @@
 			)
 		)
 		(property "Value" "M2.5_2.7mm"
-			(at 181.61 271.78 0)
+			(at 181.61 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,7 +10153,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 179.07 270.51 0)
+			(at 179.07 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 270.51 0)
+			(at 179.07 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10171,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 179.07 270.51 0)
+			(at 179.07 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +10199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "092f909c-1385-4168-a17f-afd27f35b4e6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 34.29 113.03 0)
 			(effects
 				(font
@@ -10254,7 +10250,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09cf37a8-584f-4ba4-91f3-7cc1785ea124")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 396.24 191.77 0)
 			(effects
 				(font
@@ -10319,7 +10315,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10335,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aaaf0a1-73ec-45c8-88dd-ab32476057ad")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -10386,7 +10382,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10402,7 +10398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae01c3a-f6a0-4bf5-9e28-ca2e4dcabf76")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 311.15 177.8 0)
 			(effects
 				(font
@@ -10453,7 +10449,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10534,7 +10530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d701a16-3c4f-42c7-bacb-86d21a1bc822")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 228.854 100.33 90)
 			(effects
 				(font
@@ -10588,7 +10584,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0da622e9-c514-4372-9860-5263fbe1e8e9")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 228.854 102.87 90)
 			(effects
 				(font
@@ -10657,141 +10653,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e81dec2-e01c-426e-90f7-c69d1f02e3f0")
-		(property "Reference" "R4"
-			(at 92.964 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 91.44 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 89.662 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2812acad-b473-4dd4-820c-00bd5b823c28")
-		)
-		(pin "2"
-			(uuid "a88bab7e-d47b-4ad9-aa3d-41a3a46c4c85")
-		)
-		(instances
-			(project "ACFR-PCB"
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 179.07 280.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12686cc0-71ff-4eb4-97c1-5f594fd88ec6")
-		(property "Reference" "H4"
-			(at 181.61 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "M2.5_2.7mm"
-			(at 181.61 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 179.07 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 179.07 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ACFR-PCB"
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "H4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10906,7 +10768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bfaaeb8-21d5-4f6b-9a3c-1dc7ce8f33d8")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 287.274 196.85 0)
 			(effects
 				(font
@@ -10960,7 +10822,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11205,7 +11067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22dcd0e9-64d5-48ea-80b9-44970958d9ca")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 125.73 170.18 0)
 			(effects
 				(font
@@ -11255,7 +11117,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11263,15 +11125,15 @@
 	)
 	(symbol
 		(lib_id "Diode:NSR0340HT1G")
-		(at 128.27 104.14 270)
+		(at 118.11 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "22fac0c4-b31f-4d22-afd8-a08ca4f41bd9")
-		(property "Reference" "D3"
-			(at 122.174 102.87 90)
+		(property "Reference" "D2"
+			(at 112.014 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11141,7 @@
 			)
 		)
 		(property "Value" "SS2040LL"
-			(at 121.92 104.902 90)
+			(at 111.76 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11287,7 +11149,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 123.825 104.14 0)
+			(at 113.665 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,7 +11158,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/panjit-international-inc/SS2040LL-R1-00001/14660534"
-			(at 128.27 104.14 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11305,7 +11167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 104.14 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11184,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11406,7 +11268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27172db9-ea47-4b8f-a8af-7e876f8775cd")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 304.8 226.06 0)
 			(effects
 				(font
@@ -11456,7 +11318,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11618,7 +11480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28cb7a70-9494-4070-a16e-72bd1ac844d4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 318.77 201.93 0)
 			(effects
 				(font
@@ -11669,7 +11531,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11693,7 +11555,7 @@
 			)
 		)
 		(property "Value" "ECS-400-8-36B-7KY"
-			(at 146.812 240.538 90)
+			(at 143.764 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +11854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e29d1d3-978b-4524-8cd8-6deb28386fce")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -12042,7 +11904,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12058,7 +11920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f78b5f2-fbbb-4f84-93ac-99d358938a46")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -12109,7 +11971,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12125,7 +11987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30ff3d72-2628-4c17-bd11-3bda53e8f890")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 148.59 242.57 0)
 			(effects
 				(font
@@ -12176,7 +12038,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32fb100f-7225-42cc-954b-c7b43f688162")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 38.1 138.43 0)
 			(effects
 				(font
@@ -12241,7 +12103,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12256,7 +12118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35970175-a846-41ca-8d5f-546409e789b6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 270.51 59.69 0)
 			(effects
 				(font
@@ -12307,7 +12169,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12459,7 +12321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4d8b27-faf4-4874-a4ea-569a0e7cb314")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 341.63 201.93 0)
 			(effects
 				(font
@@ -12510,7 +12372,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12595,7 +12457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "419d9d47-2e41-4f3e-aa96-f393497e9464")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -12646,7 +12508,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12662,7 +12524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4317e391-eb1f-4059-8f7f-83dd21216857")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 285.75 207.01 0)
 			(effects
 				(font
@@ -12713,76 +12575,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 106.68 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4343bc2f-c4b9-4a17-b204-e1972f79d57d")
-		(property "Reference" "BZ1"
-			(at 116.332 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 116.332 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.045 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06621e7f-9b81-4eba-b011-f87518e7aa5b")
-		)
-		(pin "1"
-			(uuid "6bfc4da5-1570-4af0-a349-578247845787")
-		)
-		(instances
-			(project ""
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "BZ1")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12798,7 +12591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "476d3b91-27c6-47a9-a8bd-93c145cce2a5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 285.75 182.88 0)
 			(effects
 				(font
@@ -12848,7 +12641,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12863,7 +12656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4baf6f08-05f6-4eee-a7b8-725d15a5f303")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 306.832 226.06 0)
 			(effects
 				(font
@@ -12872,8 +12665,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 304.8 228.092 90)
+		(property "Value" "1k"
+			(at 304.8 227.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +12710,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12932,7 +12725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bdde247-89d3-43fc-bd59-83c187f56e48")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 373.38 39.37 0)
 			(effects
 				(font
@@ -12983,7 +12776,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13023,7 +12816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/abracon-llc/ADCM-S05R5SA155RB/21667153"
+		(property "Datasheet" "~"
 			(at 299.72 172.72 0)
 			(effects
 				(font
@@ -13032,7 +12825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized supercapacitor, US symbol"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 299.72 172.72 0)
 			(effects
 				(font
@@ -13178,7 +12971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50db7d81-8623-4956-825c-add409e7d7e7")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 205.232 27.432 90)
 			(effects
 				(font
@@ -13230,7 +13023,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13246,7 +13039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d383ea-ebdd-41be-a253-380b563c7011")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -13297,7 +13090,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13312,7 +13105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "536fd1b1-01b7-4535-badc-368c8d610cdf")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 246.38 43.18 0)
 			(effects
 				(font
@@ -13363,7 +13156,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13371,15 +13164,15 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 137.16 104.14 0)
+		(at 127 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "55645b70-756d-4263-af6e-ea76b99c4459")
-		(property "Reference" "BZ2"
-			(at 145.542 102.87 0)
+		(property "Reference" "BZ1"
+			(at 135.382 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +13181,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 146.812 105.41 0)
+			(at 136.652 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,8 +13189,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 136.525 101.6 90)
+		(property "Footprint" "besser_footprints:CMT-9504-87-SMT_BUZZER"
+			(at 126.365 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +13199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 136.525 101.6 90)
+			(at 126.365 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +13208,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 137.16 104.14 0)
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13432,7 +13225,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "BZ2")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -13447,7 +13240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5678184f-1f7a-4ae8-be1f-0e10d5dde8bf")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 196.088 91.44 0)
 			(effects
 				(font
@@ -13501,7 +13294,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13517,7 +13310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1bbd60-2fc2-479d-87de-18549894ea56")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 304.8 248.92 0)
 			(effects
 				(font
@@ -13568,7 +13361,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -13584,7 +13377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cdad36d-19cc-4db4-82dc-635e62b66163")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR047"
 			(at 280.67 284.48 0)
 			(effects
 				(font
@@ -13635,7 +13428,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR076")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13650,7 +13443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d72f43c-ce74-4661-9833-cf71ae118442")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR035"
 			(at 186.69 92.71 0)
 			(effects
 				(font
@@ -13700,7 +13493,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR071")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13716,7 +13509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d932bf7-5178-4e8c-baec-951e857ba491")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 135.89 49.53 0)
 			(effects
 				(font
@@ -13767,7 +13560,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13782,7 +13575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ed49d59-dcc0-41f6-aa13-4a9634e75c21")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 294.386 193.294 0)
 			(effects
 				(font
@@ -13834,7 +13627,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13918,7 +13711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "619602fc-fade-4477-bdb3-746f817f9723")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 161.29 166.37 0)
 			(effects
 				(font
@@ -13968,7 +13761,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13983,7 +13776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "619b46d6-8674-47d9-8b53-a13bfb129211")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 170.18 60.96 0)
 			(effects
 				(font
@@ -14033,7 +13826,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14141,7 +13934,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 125.73 115.57 0)
+		(at 115.57 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14149,8 +13942,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69afa5d6-8afb-4185-9162-55c3acf269c8")
-		(property "Reference" "Q3"
-			(at 132.08 114.3 0)
+		(property "Reference" "Q1"
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +13952,7 @@
 			)
 		)
 		(property "Value" "DMP2045U-7"
-			(at 132.08 116.84 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +13961,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 130.81 113.03 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +13970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP2045U-7/8275356"
-			(at 125.73 128.27 0)
+			(at 115.57 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +13979,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 125.73 115.57 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +13988,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 125.73 132.715 0)
+			(at 115.57 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +13997,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 125.73 134.62 0)
+			(at 115.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14006,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=G 2=S 3=D"
-			(at 125.73 130.81 0)
+			(at 115.57 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +14026,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -14249,7 +14042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9376af-602c-4d29-b264-9b99d4126de6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 54.61 152.4 0)
 			(effects
 				(font
@@ -14300,7 +14093,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14315,7 +14108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6be70d5d-36c6-4f96-9c81-e5a21e682cfa")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 360.68 66.04 0)
 			(effects
 				(font
@@ -14366,7 +14159,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -14447,7 +14240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70c52911-1a8c-461a-9593-e460c068e8a6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 193.04 71.12 0)
 			(effects
 				(font
@@ -14498,7 +14291,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14514,7 +14307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c5654f-d05b-4b62-8d6c-4dc4cbbe0ff5")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 295.91 179.07 0)
 			(effects
 				(font
@@ -14565,7 +14358,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14740,7 +14533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75d48929-94ae-4ab9-aba7-6933848de116")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -14790,7 +14583,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14806,7 +14599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76f98fe6-0de7-4121-9dcd-f70b186257da")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 193.04 102.87 0)
 			(effects
 				(font
@@ -14857,7 +14650,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14872,7 +14665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a5986b0-2573-4441-ada0-2a78b1bfd706")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 228.854 107.95 90)
 			(effects
 				(font
@@ -14926,7 +14719,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15078,7 +14871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de41b94-b449-4926-bf66-4d7fe48f12bd")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 303.53 170.18 0)
 			(effects
 				(font
@@ -15128,7 +14921,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -15144,7 +14937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82366728-1118-4a7f-a159-8d03cababda0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 38.1 156.21 0)
 			(effects
 				(font
@@ -15195,74 +14988,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86f343d3-15c8-4c5c-b102-da14d4143b49")
-		(property "Reference" "#PWR016"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7857187-78b9-4b1a-9eec-5a774c8fc199")
-		)
-		(instances
-			(project "ACFR-PCB"
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15277,7 +15003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8808a1b3-5266-427b-b81f-7150ee3c259e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 205.74 39.37 0)
 			(effects
 				(font
@@ -15328,7 +15054,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15344,7 +15070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f8a0de-098b-4a9d-b17a-f54ed24011ca")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 370.84 201.93 0)
 			(effects
 				(font
@@ -15395,7 +15121,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -15411,7 +15137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a04b272-9431-41c4-963f-1e0969e96d28")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 383.54 204.47 0)
 			(effects
 				(font
@@ -15462,7 +15188,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -15477,7 +15203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d8edd33-286b-4582-b890-6471fd4bb6ea")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 364.49 190.754 0)
 			(effects
 				(font
@@ -15531,7 +15257,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15546,7 +15272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8db806dd-9170-49b8-a4cd-31eb581de747")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 381 55.88 0)
 			(effects
 				(font
@@ -15597,7 +15323,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -15612,7 +15338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ef1e9d2-c1f4-483f-8090-6cbee21302a4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR06"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -15662,7 +15388,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR01")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15678,7 +15404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fbc055b-b80a-4779-857f-5d34e5a76a57")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 195.3634 64.77 0)
 			(effects
 				(font
@@ -15769,7 +15495,7 @@
 		(instances
 			(project ""
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15893,7 +15619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "960244e8-5f34-4249-bd0c-c3153bf43a05")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 280.67 49.53 0)
 			(effects
 				(font
@@ -15944,7 +15670,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15959,7 +15685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e97b4e8-5a71-437b-bbb2-e5ac3891cba3")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR044"
 			(at 269.24 279.4 0)
 			(effects
 				(font
@@ -16009,7 +15735,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR073")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -16025,7 +15751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea46852-f516-428f-ba6a-e43d461fef7a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 331.47 204.47 0)
 			(effects
 				(font
@@ -16076,7 +15802,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16091,7 +15817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f173ee8-16d9-4787-a546-8f9ef8f1c7c9")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 372.872 27.432 90)
 			(effects
 				(font
@@ -16143,74 +15869,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f4f1eb0-59b5-4471-ae30-d0e548f403b6")
-		(property "Reference" "#PWR019"
-			(at 104.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48b60580-7485-45c5-82e5-c559329f8332")
-		)
-		(instances
-			(project "ACFR-PCB"
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR019")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16226,7 +15885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0302afb-7a37-463a-8424-421e053dcbd3")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 153.67 250.19 0)
 			(effects
 				(font
@@ -16277,7 +15936,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16293,7 +15952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a42b5e-5ef4-426d-a0d7-770d9628d721")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -16365,7 +16024,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -16380,7 +16039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5099bb8-9536-47f3-bb33-0cf606ff93ce")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 157.48 160.274 90)
 			(effects
 				(font
@@ -16432,7 +16091,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -16514,7 +16173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6aa73fc-60a2-4efc-954c-eb1e877da024")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 340.36 55.88 0)
 			(effects
 				(font
@@ -16565,7 +16224,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -16716,7 +16375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9ed3737-8d18-4c65-984b-dca5f5fa8f38")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 340.36 44.45 0)
 			(effects
 				(font
@@ -16766,7 +16425,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16782,7 +16441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad48301a-edd0-433b-b397-c82a7fa15ad2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 148.59 224.79 0)
 			(effects
 				(font
@@ -16833,7 +16492,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16849,7 +16508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae321f5c-74f5-4238-832b-f50632c97fe4")
-		(property "Reference" "U10"
+		(property "Reference" "U9"
 			(at 383.54 181.61 0)
 			(effects
 				(font
@@ -16910,7 +16569,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -16926,7 +16585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae8ece74-93d6-4c8e-add0-2a94b6ad340d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 35.56 77.47 0)
 			(effects
 				(font
@@ -16977,7 +16636,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16992,7 +16651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1078d0f-bfc1-4592-a093-277f268ec9c4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 193.04 35.56 0)
 			(effects
 				(font
@@ -17042,7 +16701,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17127,7 +16786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b269424a-ffce-4523-be2d-247247c5622f")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR040"
 			(at 220.98 116.84 0)
 			(effects
 				(font
@@ -17178,7 +16837,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR074")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17313,106 +16972,6 @@
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 99.06 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b80a1ab5-b981-4e48-acb8-87a577922357")
-		(property "Reference" "Q1"
-			(at 105.41 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP2045U-7"
-			(at 105.41 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 104.14 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP2045U-7/8275356"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 99.06 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 99.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=G 2=S 3=D"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20130004-e5dc-4b58-911f-9f1f730255c8")
-		)
-		(pin "3"
-			(uuid "55ad583c-94b1-4481-b8ab-d567f3750821")
-		)
-		(pin "1"
-			(uuid "b0c7e684-d8b9-4b72-a54d-90c07fefabbc")
-		)
-		(instances
-			(project "ACFR-PCB"
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -17556,7 +17115,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 179.07 265.43 0)
+		(at 179.07 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17565,7 +17124,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf801e80-5754-4cd4-aaf9-21650fad1ae0")
 		(property "Reference" "H1"
-			(at 181.61 264.16 0)
+			(at 181.61 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17575,7 +17134,7 @@
 			)
 		)
 		(property "Value" "M2.5_2.7mm"
-			(at 181.61 266.7 0)
+			(at 181.61 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17584,7 +17143,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 179.07 265.43 0)
+			(at 179.07 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 265.43 0)
+			(at 179.07 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,7 +17161,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 179.07 265.43 0)
+			(at 179.07 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17695,7 +17254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0823da9-9f4d-4795-84d8-443e0be60819")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 135.89 38.1 0)
 			(effects
 				(font
@@ -17745,7 +17304,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17761,7 +17320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c641a243-fca6-42bb-83f0-e6a3fdd7bca6")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR050"
 			(at 293.37 127 0)
 			(effects
 				(font
@@ -17812,7 +17371,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR072")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17827,7 +17386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8b60e83-0234-43a9-8fd7-bbab8d31f5d4")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 360.68 35.56 0)
 			(effects
 				(font
@@ -17877,7 +17436,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -17961,7 +17520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d07944d0-301c-47bd-910a-f2c26c2bba37")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 170.18 53.34 0)
 			(effects
 				(font
@@ -18012,7 +17571,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18028,7 +17587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6294df0-3c71-428a-a41b-f7871ca3b75f")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 139.954 193.04 0)
 			(effects
 				(font
@@ -18080,7 +17639,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -18163,7 +17722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d650fac1-00a8-4f8a-847b-9a0df459cd5b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 148.59 257.81 0)
 			(effects
 				(font
@@ -18214,7 +17773,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18229,7 +17788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6659934-02f0-4699-be8d-f7d6d2a0e551")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR041"
 			(at 229.87 99.06 0)
 			(effects
 				(font
@@ -18279,7 +17838,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR075")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18363,7 +17922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da03f556-9856-4bdd-b3d0-05683cbf4662")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 228.854 115.57 90)
 			(effects
 				(font
@@ -18417,7 +17976,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -18432,7 +17991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db2eaf2e-f775-461e-9084-10ee5acf68fc")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 228.854 113.03 90)
 			(effects
 				(font
@@ -18486,7 +18045,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18502,7 +18061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deb6669e-bf14-449b-9085-ec8d8d54e765")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -18553,7 +18112,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18568,7 +18127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dee1bd2a-df05-418d-b00d-566bf8813273")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 228.6 97.79 90)
 			(effects
 				(font
@@ -18622,7 +18181,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18630,7 +18189,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 179.07 275.59 0)
+		(at 179.07 280.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -18639,7 +18198,7 @@
 		(fields_autoplaced yes)
 		(uuid "e71943a2-91f8-4297-9bed-296749ed0043")
 		(property "Reference" "H3"
-			(at 181.61 274.32 0)
+			(at 181.61 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18649,7 +18208,7 @@
 			)
 		)
 		(property "Value" "M2.5_2.7mm"
-			(at 181.61 276.86 0)
+			(at 181.61 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18658,7 +18217,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 179.07 275.59 0)
+			(at 179.07 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18667,7 +18226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 275.59 0)
+			(at 179.07 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18676,7 +18235,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 179.07 275.59 0)
+			(at 179.07 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18831,15 +18390,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 172.72 90)
+		(at 157.48 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "edcc7d55-0663-45af-91d6-a57062fb9266")
-		(property "Reference" "R7"
-			(at 157.48 170.434 90)
+		(property "Reference" "R6"
+			(at 157.48 167.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18847,7 +18406,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 157.48 172.72 90)
+			(at 157.48 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +18414,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 157.48 174.498 90)
+			(at 157.48 171.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18864,7 +18423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 172.72 0)
+			(at 157.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +18432,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 172.72 0)
+			(at 157.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18890,7 +18449,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19063,7 +18622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f37ec190-01fe-430c-9cd0-b2501f85032c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 163.83 250.19 0)
 			(effects
 				(font
@@ -19114,7 +18673,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19205,7 +18764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5ca6a1b-7e49-4c5a-8a6b-2fbc15d13caa")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 306.832 238.76 0)
 			(effects
 				(font
@@ -19214,7 +18773,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "806o"
 			(at 304.8 240.792 90)
 			(effects
 				(font
@@ -19232,7 +18791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07806RL/727397"
 			(at 304.8 238.76 0)
 			(effects
 				(font
@@ -19259,7 +18818,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -19341,7 +18900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f91e41b0-d423-4b8a-bb99-b6a54de302b7")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 393.7 201.93 0)
 			(effects
 				(font
@@ -19392,7 +18951,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -19408,7 +18967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce7c7c3-72d6-43ba-914c-c0b017cbf7f5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 161.29 203.2 0)
 			(effects
 				(font
@@ -19459,7 +19018,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19467,7 +19026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 120.65 0)
+		(at 118.11 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19475,8 +19034,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe5226df-c6e0-4a6a-95d2-4cac8a0bd4b0")
-		(property "Reference" "#PWR042"
-			(at 128.27 127 0)
+		(property "Reference" "#PWR018"
+			(at 118.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19485,7 +19044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 125.73 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19494,7 +19053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 120.65 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19503,7 +19062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 120.65 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19512,7 +19071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 120.65 0)
+			(at 118.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,7 +19085,7 @@
 		(instances
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "#PWR042")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
