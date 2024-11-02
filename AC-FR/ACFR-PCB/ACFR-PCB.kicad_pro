@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.16,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -187,9 +187,7 @@
         0.19,
         0.2939,
         0.3,
-        0.4,
-        0.5,
-        1.0
+        0.35
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -225,10 +223,6 @@
         {
           "diameter": 0.6,
           "drill": 0.3
-        },
-        {
-          "diameter": 0.9,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -531,7 +525,7 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -582,7 +576,7 @@
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -654,10 +648,6 @@
         "pattern": "+3*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/RF*"
-      },
-      {
         "netclass": "I2C",
         "pattern": "/SDA"
       },
@@ -711,7 +701,7 @@
       },
       {
         "netclass": "CRYSTAL",
-        "pattern": "/XT*"
+        "pattern": "/XTAL*"
       }
     ]
   },
