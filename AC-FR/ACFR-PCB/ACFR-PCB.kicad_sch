@@ -173,6 +173,252 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x04_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Micro_SD_Card_Det1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6909,6 +7155,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 265.43) (xy 233.68 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a082b00-4f4c-4fa5-abb6-25b6609c2a66")
+	)
+	(wire
+		(pts
 			(xy 132.08 38.1) (xy 132.08 35.56)
 		)
 		(stroke
@@ -7026,6 +7282,16 @@
 			(type default)
 		)
 		(uuid "3476577e-2ee2-41aa-b246-acceb80c1fdf")
+	)
+	(wire
+		(pts
+			(xy 227.33 270.51) (xy 237.49 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34876e48-c3b9-442c-a3dc-a2b839446ec2")
 	)
 	(wire
 		(pts
@@ -7799,6 +8065,16 @@
 	)
 	(polyline
 		(pts
+			(xy 224.79 284.48) (xy 224.79 252.73)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9356a766-a252-409a-964e-75f6e778fc41")
+	)
+	(polyline
+		(pts
 			(xy 13.97 76.2) (xy 86.36 76.2)
 		)
 		(stroke
@@ -8197,6 +8473,16 @@
 		)
 		(uuid "c989e4fc-b5f6-4e13-983e-e6698de8740c")
 	)
+	(polyline
+		(pts
+			(xy 224.79 252.73) (xy 274.32 252.73)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c9fcefa3-cbba-4113-a0d0-9a34d6032352")
+	)
 	(wire
 		(pts
 			(xy 129.54 205.74) (xy 138.43 205.74)
@@ -8469,6 +8755,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 267.97) (xy 237.49 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacbfd14-9ae8-48b1-9520-384267d15a1d")
+	)
+	(wire
+		(pts
 			(xy 77.47 166.37) (xy 90.17 166.37)
 		)
 		(stroke
@@ -8669,7 +8965,7 @@
 	)
 	(text "5v MAX"
 		(exclude_from_sim no)
-		(at 362.204 206.248 0)
+		(at 363.982 204.47 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8717,6 +9013,16 @@
 		)
 		(uuid "69f53c20-9c43-4cb6-945f-4c05bd47729e")
 	)
+	(text "CARFIO Con.\n"
+		(exclude_from_sim no)
+		(at 249.428 259.08 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "7b1d7ba4-3fed-4b2a-835d-5afc215e9263")
+	)
 	(text "USB-C\n"
 		(exclude_from_sim no)
 		(at 47.752 19.05 0)
@@ -8736,6 +9042,16 @@
 			)
 		)
 		(uuid "9d6a8c56-9f91-4d56-bb5c-319154c8eed5")
+	)
+	(text "For the CARFIO\nRadio. NOT\nany other GPIO\ndevice, as it \nuses VHIGH.\n"
+		(exclude_from_sim no)
+		(at 260.35 269.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e210149-b9c4-433c-a04f-65d4e0573728")
 	)
 	(text "See:\nhttps://www.youtube.com/watch?v=FytOw9TRPcc"
 		(exclude_from_sim no)
@@ -8882,6 +9198,17 @@
 			(justify right bottom)
 		)
 		(uuid "0d842bc9-ee04-4f80-ac61-bf84ef423967")
+	)
+	(label "VHIGH"
+		(at 227.33 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d8b2f3c-a2d6-4142-8df6-af1299a8c318")
 	)
 	(label "SDA"
 		(at 254 45.72 0)
@@ -9324,6 +9651,17 @@
 		(uuid "8d92649d-a752-4b80-92b1-b870d264a70a")
 	)
 	(label "SCL"
+		(at 233.68 265.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ee0c332-1a6c-4235-bd32-06e468f6c136")
+	)
+	(label "SCL"
 		(at 341.63 44.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9443,6 +9781,17 @@
 			(justify left bottom)
 		)
 		(uuid "cfaeb22f-203b-4f5e-afc9-03691386d1c2")
+	)
+	(label "SDA"
+		(at 233.68 267.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3754bb5-0836-4b05-8a8c-cc40697efd50")
 	)
 	(label "SPICS0"
 		(at 129.54 198.12 0)
@@ -14458,6 +14807,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 242.57 270.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c67b29f-3e01-4ed0-8f8f-75f9f7b9a453")
+		(property "Reference" "J3"
+			(at 244.094 270.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST-SM04B-SRSS"
+			(at 230.378 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "besser_footprints:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 242.57 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 242.57 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48000e28-3c2e-48c3-bda9-d24b6707775d")
+		)
+		(pin "2"
+			(uuid "fdbc40fd-f5b3-4a83-88ac-da89ed73c64c")
+		)
+		(pin "3"
+			(uuid "24b9bff6-ecf7-4efb-8fc0-6939264c01a9")
+		)
+		(pin "4"
+			(uuid "71738ea3-02fb-4eb5-aa6f-12c405fbcad5")
+		)
+		(instances
+			(project "ACFR-PCB"
+				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 351.79 209.55 0)
 		(unit 1)
@@ -17300,6 +17725,73 @@
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb88b0e-2db5-4004-b8cd-a83a1aca40e7")
+		(property "Reference" "#PWR046"
+			(at 237.49 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "969e38bb-7fd2-4161-a5c2-d590318a91c1")
+		)
+		(instances
+			(project "ACFR-PCB"
+				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
