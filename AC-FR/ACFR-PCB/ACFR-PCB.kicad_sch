@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Aerochungus Flight Recorder")
-		(date "2024-10-29")
+		(date "2024-11-06")
 		(rev "R1")
 		(company "Chungus Aerospace")
 	)
@@ -4850,6 +4850,318 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 5.334 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NXV55UNR"
+				(at 5.334 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NXV55UNR/13898532"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=G 2=S 3=D"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:PMOS"
 			(pin_names
 				(offset 0)
@@ -8893,16 +9205,6 @@
 		)
 		(uuid "10e6b8b7-66c0-4777-a842-812d22b06b08")
 	)
-	(text "TODO:\nInvestigate flash usage to make \nsure everything will work with \nAdafruit flash lib\nand Arduino SD lib\n"
-		(exclude_from_sim no)
-		(at 234.95 158.75 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "141ea69a-6d0f-4eac-847d-bd23da798911")
-	)
 	(text "Switches\n"
 		(exclude_from_sim no)
 		(at 46.736 82.296 0)
@@ -8972,16 +9274,6 @@
 			)
 		)
 		(uuid "48a5243b-80bb-4f9d-ac80-728197e2b54a")
-	)
-	(text "Not tested, this\npull down R may be\nrequired as this is\na P channel FET."
-		(exclude_from_sim no)
-		(at 141.224 120.904 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51f27020-2d60-4a8d-9c3b-d1ffaea9bee2")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -9063,16 +9355,6 @@
 		)
 		(uuid "b3eb944f-6c07-4777-8206-34daad466a1a")
 	)
-	(text "Make better symbol."
-		(exclude_from_sim no)
-		(at 229.362 124.714 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "b8ac37cb-d168-4a6e-b4ce-0363690f16dc")
-	)
 	(text "Must be initialized\nbefore other devices."
 		(exclude_from_sim no)
 		(at 286.004 81.28 0)
@@ -9144,17 +9426,6 @@
 		)
 		(uuid "0220f167-166d-40b9-a3b3-840b2533d0a1")
 	)
-	(label "IO14"
-		(at 24.13 222.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03c4c9ea-c75a-4476-8bc6-e718a999d90c")
-	)
 	(label "SCK"
 		(at 160.02 100.33 0)
 		(fields_autoplaced yes)
@@ -9165,17 +9436,6 @@
 			(justify left bottom)
 		)
 		(uuid "044c57f1-c36d-4cce-b6cf-e580d9149be5")
-	)
-	(label "IO1"
-		(at 24.13 189.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "068a5fda-02c4-4059-bc05-44399ceaf2f2")
 	)
 	(label "SD_CS"
 		(at 241.3 100.33 0)
@@ -9319,28 +9579,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f331cd1-80a8-4200-a0d5-799516608d73")
-	)
-	(label "IO12"
-		(at 24.13 217.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33706a1a-fe1c-4991-aa46-116f33598e8f")
-	)
-	(label "IO21"
-		(at 24.13 234.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43e63118-fe82-41f3-859d-221daf6e8577")
 	)
 	(label "NEOPIXEL"
 		(at 21.59 142.24 0)
@@ -10052,6 +10290,105 @@
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 115.57 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0559af53-8f6e-4b63-8144-7a56593c4941")
+		(property "Reference" "Q1"
+			(at 120.904 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NXV55UNR"
+			(at 120.904 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/NXV55UNR/13898532"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 115.57 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=G 2=S 3=D"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ad0e21f-eb64-4e51-8299-0746d30efdff")
+		)
+		(pin "1"
+			(uuid "f4f4bb70-6cbf-4042-bd13-a2e0804c50ba")
+		)
+		(pin "2"
+			(uuid "fd9d7b64-d05a-4579-a07e-404c91b19463")
+		)
+		(instances
+			(project "ACFR-PCB"
+				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13743,106 +14080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 115.57 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69afa5d6-8afb-4185-9162-55c3acf269c8")
-		(property "Reference" "Q1"
-			(at 121.92 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP2045U-7"
-			(at 121.92 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 120.65 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP2045U-7/8275356"
-			(at 115.57 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 115.57 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 115.57 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=G 2=S 3=D"
-			(at 115.57 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c431b0a-d3f9-4da8-b6c9-385db94dce0c")
-		)
-		(pin "3"
-			(uuid "abd32d45-53bd-44df-9ed0-6c68ae82513a")
-		)
-		(pin "1"
-			(uuid "051f5fb9-f791-46a4-9705-f1b27117f5b6")
-		)
-		(instances
-			(project "ACFR-PCB"
-				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 360.68 59.69 0)
 		(unit 1)
@@ -15151,7 +15388,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "887a2284-fc13-48d9-b677-82283ce1e3cc")
 		(property "Reference" "R4"
 			(at 110.744 114.3 0)
@@ -15162,7 +15399,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 108.204 114.3 90)
+			(at 107.95 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15528,7 +15765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/PTS636-SK25F-SMTR-LFS/10071743"
 			(at 53.34 105.41 0)
 			(effects
 				(font
@@ -15579,8 +15816,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
-			(at 168.91 91.186 90)
+		(property "Value" "100k"
+			(at 168.91 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16621,7 +16858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/PTS636-SK25F-SMTR-LFS/10071743"
 			(at 21.59 105.41 0)
 			(effects
 				(font
