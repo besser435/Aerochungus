@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Aerochungus Flight Recorder")
-		(date "2024-11-06")
-		(rev "R1")
+		(date "2024-11-16")
+		(rev "R2")
 		(company "Chungus Aerospace")
 	)
 	(lib_symbols
@@ -6750,6 +6750,12 @@
 		(uuid "107e7da4-2ac3-4c00-91ec-d181b8d9f80a")
 	)
 	(junction
+		(at 151.13 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e1b6721-c362-45e8-9d0f-ca044cfdb0fe")
+	)
+	(junction
 		(at 106.68 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6814,6 +6820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53f7ce51-010e-4acb-9edb-7ee847edef4a")
+	)
+	(junction
+		(at 151.13 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56794cfa-9bed-4bd5-9895-bab3a6461ae6")
 	)
 	(junction
 		(at 360.68 33.02)
@@ -7207,7 +7219,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 170.18) (xy 153.67 170.18)
+			(xy 144.78 170.18) (xy 151.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7544,6 +7556,16 @@
 			(type default)
 		)
 		(uuid "2e33087a-fffc-4704-9662-740cdd9ef0d7")
+	)
+	(wire
+		(pts
+			(xy 151.13 170.18) (xy 153.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f31f781-eba5-40b3-96eb-2e5e02ccd318")
 	)
 	(wire
 		(pts
@@ -8234,6 +8256,16 @@
 			(type default)
 		)
 		(uuid "7b9f3587-e9fd-46bb-b025-578a2f4cb040")
+	)
+	(wire
+		(pts
+			(xy 151.13 162.56) (xy 153.67 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815c3d96-13f2-41f2-b584-5c9eb7f05bf2")
 	)
 	(polyline
 		(pts
@@ -9047,7 +9079,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 162.56) (xy 153.67 162.56)
+			(xy 144.78 162.56) (xy 151.13 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9374,16 +9406,6 @@
 			)
 		)
 		(uuid "cd08871e-d6b6-4a5a-a0e9-227138659025")
-	)
-	(text "Using 10k pullups,\nnot 5.1k.\n\nWill this fix\nocasional I2C\nsetup error?"
-		(exclude_from_sim no)
-		(at 156.21 150.114 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfa01ddb-3ce5-4511-a7aa-2700a96b13da")
 	)
 	(text "Magentometer"
 		(exclude_from_sim no)
@@ -10043,7 +10065,7 @@
 		(uuid "d4039e1e-a158-41c0-8de6-09ffeb93c5d2")
 	)
 	(label "SCL"
-		(at 148.59 170.18 0)
+		(at 144.78 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10054,7 +10076,7 @@
 		(uuid "dfb4bbb6-e630-40de-b1a3-04fcc97f2410")
 	)
 	(label "SDA"
-		(at 148.59 162.56 0)
+		(at 144.78 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13127,6 +13149,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb0f386-a62d-4d1f-9e36-b25f1fba9481")
+		(property "Reference" "TP5"
+			(at 149.352 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 162.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f854179e-0d0d-4661-bfd6-c6dcb324738c")
+		)
+		(instances
+			(project "ACFR-PCB"
+				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 373.38 33.02 0)
 		(unit 1)
@@ -15044,6 +15133,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c583532-5e5e-48d5-aa1e-07a76f0a680f")
+		(property "Reference" "TP4"
+			(at 152.654 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 156.21 170.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfb79fed-0f28-4661-9435-e2432c5a8df8")
+		)
+		(instances
+			(project "ACFR-PCB"
+				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 242.57 270.51 0)
 		(mirror x)
@@ -15114,6 +15270,73 @@
 			(project "ACFR-PCB"
 				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 396.24 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc66e8c-d7d2-488a-8a4d-e21a49abcdca")
+		(property "Reference" "TP3"
+			(at 396.24 226.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 391.16 230.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 401.32 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 396.24 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90b6967a-3a6f-4b4d-9add-15c0b7af3404")
+		)
+		(instances
+			(project "ACFR-PCB"
+				(path "/8287cc23-38e5-458d-8ed1-870f124a9a59"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
